@@ -33,14 +33,14 @@ object AppModule {
             }
                 .setLevel(HttpLoggingInterceptor.Level.BODY)
         )
-        .addInterceptor(Interceptor { chain: Interceptor.Chain ->
-            val original = chain.request()
-            val request = original.newBuilder()
-                .header("Authorization", "Bearer ")
-                .method(original.method, original.body)
-                .build()
-            chain.proceed(request)
-        })
+//        .addInterceptor(Interceptor { chain: Interceptor.Chain ->
+//            val original = chain.request()
+//            val request = original.newBuilder()
+//                .header("Authorization", "Bearer ")
+//                .method(original.method, original.body)
+//                .build()
+//            chain.proceed(request)
+//        })
         .build()
     @Provides
     @Singleton
