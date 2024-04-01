@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TestGitApiApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Users</string>
+    <string name="second_fragment_label">User details</string>
+    <string name="login">login</string>
+    <string name="id">id</string>
+    <string name="email">Email: %s</string>
+    <string name="company">Company: %s</string>
+    <string name="following">Following: %d</string>
+    <string name="followers">Followers: %d</string>
+    <string name="dateat">Created date: %s</string>
+    <string name="name">Name</string>
+</resources>
